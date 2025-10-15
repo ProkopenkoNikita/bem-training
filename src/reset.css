@@ -1,0 +1,81 @@
+/* ==============================
+   CSS Reset / Normalize
+   ============================== */
+
+/* Убираем отступы и поля */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Считаем padding и border внутри ширины элемента */
+}
+
+/* Убираем подчеркивание ссылок и стандартное оформление */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Сбрасываем списки */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Шрифты и типографика */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+}
+
+/* Убираем рамки у изображений и делаем их адаптивными */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Сбрасываем стандартные стили кнопок и инпутов */
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    appearance: none; /* Убираем стандартный вид в разных браузерах */
+}
+
+/* Сбрасываем таблицы */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Сбрасываем форматирование заголовков */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Сбрасываем стандартное выделение текста */
+::selection {
+    background-color: #b3d4fc;
+    color: #000;
+}
+
+/* Скрываем стрелки у input[type=number] в Chrome, Safari */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Скрываем стрелки у input[type=number] в Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

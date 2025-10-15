@@ -1,0 +1,12 @@
+:root {
+    --bg-color: #191919;
+    --btn-color: #118DA8;
+    /* Шрифт */
+    --font-family: 'DM Sans', sans-serif;
+
+    /* Начертание и вес */
+    --font-weight: 400;
+    /* Размер и межстрочный интервал */
+    --font-size: 17px;
+    --line-height: 27px;
+}
