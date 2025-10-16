@@ -9,6 +9,7 @@
     /* flex-контейнер */
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .header__div {
@@ -50,6 +51,7 @@
     letter-spacing: 0;
     transition: color 0.3s;
     cursor: pointer;
+    padding: 10px;
 }
 
 .header__ul__item:hover {
