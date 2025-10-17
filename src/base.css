@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,400&display=swap');
+
 :root {
     --bg-color: #191919;
+    /* button color */
     --btn-color: #118DA8;
-    /* Шрифт */
+    /* for all*/
     --font-family: 'DM Sans', sans-serif;
-
-    /* Начертание и вес */
+    /* for all */
     --font-weight: 400;
-    /* Размер и межстрочный интервал */
-    --font-size: 17px;
-    --line-height: 27px;
+    /* card h */
+    --font-size-card-h: 64px;
+    --line-height-card-h: 70.4px;
+    --letter-spacing: 2.56px;
+    /* card p*/
+    --font-size-card-p: 22px;
+    --line-height-card-p: 33px;
+    /*Button styles*/
+    --font-size-btn: 17px;
+    --line-height-btn: 27px;
+
 }

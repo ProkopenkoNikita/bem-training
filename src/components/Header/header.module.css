@@ -42,13 +42,11 @@
     gap: calc((403px - (75px * 4))/4);
 }
 
-.header__ul__item {
+.header__ul__item{
     color: white;
     font-family: var(--font-family);
-    font-size: var(--font-size);
+    font-size: var(--font-size-btn);
     font-weight: var(--font-weight);
-    font-style: normal;
-    letter-spacing: 0;
     transition: color 0.3s;
     cursor: pointer;
     padding: 10px;

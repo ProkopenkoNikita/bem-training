@@ -1,3 +1,6 @@
+@use '@base.css' as *;
+
+
 .hero {
     max-width: 1440px;
     width: 100%;
@@ -99,10 +102,9 @@
 
 
 
-.underline img {
+.hero__container__title__underline img{
     width: 163px;
     height: 11px;
-
 }
 
 .hero__container__links {
@@ -136,8 +138,19 @@
     height: 32px;
 }
 
-.hero__container__links_items a img {
-    cursor: pointer;
-    height: 32px;
+.hero__container__links_items a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+}
+
+
+.hero__container__links_items a:hover {
+    transform: translateY(-10px);
+    box-shadow:0 0 6px var(--btn-color), 0 0 12px var(--btn-color);
+    /* внутреннее свечение */
 }

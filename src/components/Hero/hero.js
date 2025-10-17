@@ -11,8 +11,8 @@ export default function hero() {
                     <img src="./hero__img.png" alt="" class="">
                 </div>
                 <div class="${styles.hero__container__info}">
-                    <h2 class="${styles.hero__container__title}">Take your podcast to the next <strong>level</strong></h2>
-                    <span class="${styles.underline}">
+                    <h1 class="${styles.hero__container__title}">Take your podcast to the next <strong>level</strong></h2>
+                    <span class="${styles.hero__container__title__underline}">
                       <img src="./Vector.svg" alt="" class="">
                     </span>
                     <div class="${styles.hero__container__links}">
